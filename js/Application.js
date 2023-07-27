@@ -17,4 +17,4 @@ let answer2_1 = prompt("На сколько оцените его?");
 movies: {
     answer1: answer1_1;
     answer2: answer2_1
-}
+};
