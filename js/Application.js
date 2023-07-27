@@ -14,7 +14,6 @@ let answer1 = prompt("Один из последних просмотренны�
 let answer1_1 = prompt("На сколько оцените его?");
 let answer2 = prompt("Один из последних просмотренных фильмов?");
 let answer2_1 = prompt("На сколько оцените его?");
-movies: {
-    answer1: answer1_1;
-    answer2: answer2_1
-};
+personalMovieDB.movies[answer1] = answer1_1;
+personalMovieDB.movies[answer2] = answer2_1;
+console.log(personalMovieDB);
